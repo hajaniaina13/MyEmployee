@@ -15,8 +15,13 @@
 
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
 
+@property (strong, nonatomic) NSManagedObjectModel *managedObjectModel;
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
 - (void)saveContext;
 
+- (NSString*) getErrorCode:(NSInteger) codeErr;
 
 @end
 

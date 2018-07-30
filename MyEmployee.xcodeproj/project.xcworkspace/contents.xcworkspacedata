@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MyStore.xcodeproj">
+      location = "self:/Users/ensor_mac/Documents/ProjectIOS/MyEmployee/MyEmployee.xcodeproj">
    </FileRef>
 </Workspace>

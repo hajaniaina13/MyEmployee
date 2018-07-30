@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17C88" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Employee" representedClassName="Employee" syncable="YES" codeGenerationType="class">
+        <attribute name="address" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="contactNo" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="email" attributeType="String" regularExpressionString="[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="modificationDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" attributeType="String" minValueString="1" syncable="YES"/>
+        <relationship name="job" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Job" inverseName="employee" inverseEntity="Job" syncable="YES"/>
+    </entity>
+    <entity name="Job" representedClassName="Job" syncable="YES" codeGenerationType="class">
+        <attribute name="jobDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jobTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="employee" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Employee" inverseName="job" inverseEntity="Employee" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Employee" positionX="-279" positionY="-1" width="128" height="165"/>
+        <element name="Job" positionX="-65" positionY="164" width="128" height="88"/>
+    </elements>
+</model>

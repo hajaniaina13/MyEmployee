@@ -7,27 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C42D49BF210B42FC005666A9 /* MyEmployee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C42D49BD210B42FC005666A9 /* MyEmployee.xcdatamodeld */; };
+		C42D49C8210B4DF6005666A9 /* JobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42D49C7210B4DF6005666A9 /* JobViewController.m */; };
 		C4357CAD21044CD500A868B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4357CAC21044CD500A868B9 /* AppDelegate.m */; };
-		C4357CB021044CD500A868B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4357CAF21044CD500A868B9 /* ViewController.m */; };
 		C4357CB321044CD500A868B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4357CB121044CD500A868B9 /* Main.storyboard */; };
-		C4357CB621044CD500A868B9 /* MyStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4357CB421044CD500A868B9 /* MyStore.xcdatamodeld */; };
 		C4357CB821044CD600A868B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4357CB721044CD600A868B9 /* Assets.xcassets */; };
 		C4357CBB21044CD600A868B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4357CB921044CD600A868B9 /* LaunchScreen.storyboard */; };
 		C4357CBE21044CD600A868B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4357CBD21044CD600A868B9 /* main.m */; };
+		C4357CCC21045D2500A868B9 /* EmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4357CCB21045D2500A868B9 /* EmployeeViewController.m */; };
+		C4357CCF21045E4A00A868B9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4357CCE21045E4A00A868B9 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C4357CA821044CD500A868B9 /* MyStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42D49BE210B42FC005666A9 /* MyEmployee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyEmployee.xcdatamodel; sourceTree = "<group>"; };
+		C42D49C0210B45B1005666A9 /* Job+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Job+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C42D49C1210B45B1005666A9 /* Job+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Job+CoreDataClass.h"; sourceTree = "<group>"; };
+		C42D49C2210B45B1005666A9 /* Job+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Job+CoreDataClass.m"; sourceTree = "<group>"; };
+		C42D49C3210B45B1005666A9 /* Job+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Job+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C42D49C6210B4DF6005666A9 /* JobViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobViewController.h; sourceTree = "<group>"; };
+		C42D49C7210B4DF6005666A9 /* JobViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobViewController.m; sourceTree = "<group>"; };
+		C4357CA821044CD500A868B9 /* MyEmployee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEmployee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4357CAB21044CD500A868B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4357CAC21044CD500A868B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C4357CAE21044CD500A868B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C4357CAF21044CD500A868B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C4357CB221044CD500A868B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C4357CB521044CD500A868B9 /* MyStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyStore.xcdatamodel; sourceTree = "<group>"; };
 		C4357CB721044CD600A868B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4357CBA21044CD600A868B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C4357CBC21044CD600A868B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4357CBD21044CD600A868B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4357CC421044D8400A868B9 /* Employee+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Employee+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C4357CC521044D8400A868B9 /* Employee+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Employee+CoreDataClass.h"; sourceTree = "<group>"; };
+		C4357CC621044D8400A868B9 /* Employee+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Employee+CoreDataClass.m"; sourceTree = "<group>"; };
+		C4357CC721044D8400A868B9 /* Employee+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Employee+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C4357CCA21045D2500A868B9 /* EmployeeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployeeViewController.h; sourceTree = "<group>"; };
+		C4357CCB21045D2500A868B9 /* EmployeeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeViewController.m; sourceTree = "<group>"; };
+		C4357CCD21045E4A00A868B9 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C4357CCE21045E4A00A868B9 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C4F19612210ADEC400E20EA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C4F19617210AE00A00E20EA1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,10 +56,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C42D49BC210B29E4005666A9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C42D49BD210B42FC005666A9 /* MyEmployee.xcdatamodeld */,
+				C42D49C0210B45B1005666A9 /* Job+CoreDataProperties.h */,
+				C42D49C1210B45B1005666A9 /* Job+CoreDataClass.h */,
+				C42D49C2210B45B1005666A9 /* Job+CoreDataClass.m */,
+				C42D49C3210B45B1005666A9 /* Job+CoreDataProperties.m */,
+				C4357CC421044D8400A868B9 /* Employee+CoreDataProperties.h */,
+				C4357CC521044D8400A868B9 /* Employee+CoreDataClass.h */,
+				C4357CC621044D8400A868B9 /* Employee+CoreDataClass.m */,
+				C4357CC721044D8400A868B9 /* Employee+CoreDataProperties.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		C4357C9F21044CD500A868B9 = {
 			isa = PBXGroup;
 			children = (
-				C4357CAA21044CD500A868B9 /* MyStore */,
+				C42D49BC210B29E4005666A9 /* CoreData */,
+				C4357CAA21044CD500A868B9 /* MyEmployee */,
 				C4357CA921044CD500A868B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,34 +84,37 @@
 		C4357CA921044CD500A868B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4357CA821044CD500A868B9 /* MyStore.app */,
+				C4357CA821044CD500A868B9 /* MyEmployee.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C4357CAA21044CD500A868B9 /* MyStore */ = {
+		C4357CAA21044CD500A868B9 /* MyEmployee */ = {
 			isa = PBXGroup;
 			children = (
 				C4357CAB21044CD500A868B9 /* AppDelegate.h */,
 				C4357CAC21044CD500A868B9 /* AppDelegate.m */,
-				C4357CAE21044CD500A868B9 /* ViewController.h */,
-				C4357CAF21044CD500A868B9 /* ViewController.m */,
 				C4357CB121044CD500A868B9 /* Main.storyboard */,
+				C4357CCD21045E4A00A868B9 /* DetailViewController.h */,
+				C4357CCE21045E4A00A868B9 /* DetailViewController.m */,
+				C4357CCA21045D2500A868B9 /* EmployeeViewController.h */,
+				C4357CCB21045D2500A868B9 /* EmployeeViewController.m */,
+				C42D49C6210B4DF6005666A9 /* JobViewController.h */,
+				C42D49C7210B4DF6005666A9 /* JobViewController.m */,
 				C4357CB721044CD600A868B9 /* Assets.xcassets */,
+				C4F19617210AE00A00E20EA1 /* Info.plist */,
 				C4357CB921044CD600A868B9 /* LaunchScreen.storyboard */,
-				C4357CBC21044CD600A868B9 /* Info.plist */,
 				C4357CBD21044CD600A868B9 /* main.m */,
-				C4357CB421044CD500A868B9 /* MyStore.xcdatamodeld */,
 			);
-			path = MyStore;
+			path = MyEmployee;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4357CA721044CD500A868B9 /* MyStore */ = {
+		C4357CA721044CD500A868B9 /* MyEmployee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4357CC121044CD600A868B9 /* Build configuration list for PBXNativeTarget "MyStore" */;
+			buildConfigurationList = C4357CC121044CD600A868B9 /* Build configuration list for PBXNativeTarget "MyEmployee" */;
 			buildPhases = (
 				C4357CA421044CD500A868B9 /* Sources */,
 				C4357CA521044CD500A868B9 /* Frameworks */,
@@ -89,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = MyStore;
+			name = MyEmployee;
 			productName = MyStore;
-			productReference = C4357CA821044CD500A868B9 /* MyStore.app */;
+			productReference = C4357CA821044CD500A868B9 /* MyEmployee.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C4357CA321044CD500A868B9 /* Build configuration list for PBXProject "MyStore" */;
+			buildConfigurationList = C4357CA321044CD500A868B9 /* Build configuration list for PBXProject "MyEmployee" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4357CA721044CD500A868B9 /* MyStore */,
+				C4357CA721044CD500A868B9 /* MyEmployee */,
 			);
 		};
 /* End PBXProject section */
@@ -144,10 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4357CB021044CD500A868B9 /* ViewController.m in Sources */,
-				C4357CB621044CD500A868B9 /* MyStore.xcdatamodeld in Sources */,
+				C4357CCC21045D2500A868B9 /* EmployeeViewController.m in Sources */,
+				C4357CCF21045E4A00A868B9 /* DetailViewController.m in Sources */,
+				C42D49C8210B4DF6005666A9 /* JobViewController.m in Sources */,
 				C4357CBE21044CD600A868B9 /* main.m in Sources */,
 				C4357CAD21044CD500A868B9 /* AppDelegate.m in Sources */,
+				C42D49BF210B42FC005666A9 /* MyEmployee.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +203,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C4357CBA21044CD600A868B9 /* Base */,
+				C4F19612210ADEC400E20EA1 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -289,12 +327,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M3B8YUL5Y2;
-				INFOPLIST_FILE = MyStore/Info.plist;
+				INFOPLIST_FILE = MyEmployee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ensor.MyStore;
+				PRODUCT_BUNDLE_IDENTIFIER = ensor.MyEmployee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,12 +344,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M3B8YUL5Y2;
-				INFOPLIST_FILE = MyStore/Info.plist;
+				INFOPLIST_FILE = MyEmployee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ensor.MyStore;
+				PRODUCT_BUNDLE_IDENTIFIER = ensor.MyEmployee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,7 +358,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4357CA321044CD500A868B9 /* Build configuration list for PBXProject "MyStore" */ = {
+		C4357CA321044CD500A868B9 /* Build configuration list for PBXProject "MyEmployee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4357CBF21044CD600A868B9 /* Debug */,
@@ -329,7 +367,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4357CC121044CD600A868B9 /* Build configuration list for PBXNativeTarget "MyStore" */ = {
+		C4357CC121044CD600A868B9 /* Build configuration list for PBXNativeTarget "MyEmployee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4357CC221044CD600A868B9 /* Debug */,
@@ -341,13 +379,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C4357CB421044CD500A868B9 /* MyStore.xcdatamodeld */ = {
+		C42D49BD210B42FC005666A9 /* MyEmployee.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C4357CB521044CD500A868B9 /* MyStore.xcdatamodel */,
+				C42D49BE210B42FC005666A9 /* MyEmployee.xcdatamodel */,
 			);
-			currentVersion = C4357CB521044CD500A868B9 /* MyStore.xcdatamodel */;
-			path = MyStore.xcdatamodeld;
+			currentVersion = C42D49BE210B42FC005666A9 /* MyEmployee.xcdatamodel */;
+			path = MyEmployee.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
